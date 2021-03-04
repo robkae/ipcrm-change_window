@@ -27,7 +27,7 @@ Puppet::Functions.create_function(:'change_window::change_window') do
     repeated_param 'Any', :args
   end
 
-  raise Puppet::ParseError, "This is a test!"
+  #raise Puppet::ParseError, "This is a test!"
   
   def default_impl(*args)
     
